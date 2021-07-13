@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap')
+
+/*-----------------
+    Main Styles
+-------------------*/
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------
+    Header Part
+----------------------*/
+
+.top-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #2D25A0;
+}
+.header-title{
+    color: white;
+    width: 320px;
+    height: 210px;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 160px 0 0 100px;
+}
+.header-title a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 6px 11px;
+    background-color: #E02C6D;
+    transition: .2s;
+    
+}
+/* Hover */
+.header-title a:hover{
+    color: #E02C6D; 
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.banner img{
+    height: 325px;
+    width: 400px;
+    margin-top: 120px;
+}
+
+/*-------------------------
+    Players Information
+-------------------------*/
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    margin-top: 50px;
+}
+.player{
+    height: 460px;
+    width: 277px;
+    margin-left: 25px;
+    box-shadow: 2px 2px 40px #979696;
+    transition: .3s;
+}
+.player:hover{
+    transform: scale(1.1)
+}
+.player img{
+    height:300px;
+    width: 256px;
+    padding: 10px;
+}
+.player h1{
+    padding: 10px ;
+    padding-top: 0px;
+    margin: 0;
+}
+.player p{
+    padding-left: 10px ;
+    padding-top: 0px;
+}
